@@ -1,50 +1,43 @@
 # ITA-RFS-Pintura-IA
 
-Projeto de IA focado em pintura, desenvolvido para experimentação com técnicas de aprendizado de máquina e processamento de imagens.
+O **ITA-RFS-Pintura-IA** é uma ferramenta de automação voltada para a criação de texturas e pinturas (*liveries*) em simuladores de voo, com foco em cenários como o **RFS**.
 
-## Funcionalidades
-- Treinamento e teste de modelos de IA
-- Processamento de imagens relacionadas a pintura
-- Organização de experimentos e datasets
-- Possível integração com notebooks e scripts Python
+## Visão geral do projeto
 
-## Requisitos
-- Python 3.10+
-- `pip`
-- Dependências do projeto, listadas em `requirements.txt`
-- Dataset/imagens, se aplicável
+O software é desenvolvido em **Python** e orientado ao padrão de engenharia **0FT (Zero-Failure Tolerant)**, priorizando previsibilidade operacional e automação confiável.
 
-## Instalação
-```bash
-git clone https://github.com/biscoitotv1/ITA-RFS-Pintura-IA.git
-cd ITA-RFS-Pintura-IA
-pip install -r requirements.txt
-```
+Entre as capacidades previstas para o projeto, destacam-se:
 
-## Uso
-```bash
-python main.py
-```
-
-Se o projeto usar notebooks, você também pode abrir:
-```bash
-jupyter notebook
-```
-
-## Estrutura do Projeto
-- `src/` — código-fonte principal
-- `data/` — datasets e arquivos de entrada
-- `notebooks/` — experimentos e testes
-- `docs/` — documentação adicional
-
-## Configuração
-Se houver variáveis de ambiente ou arquivos de configuração, descreva aqui como ajustar antes de executar.
-
-## Contribuição
-Contribuições são bem-vindas. Para mudanças maiores, abra uma issue antes de enviar um pull request.
-
-## Licença
-Adicione aqui a licença do projeto.
+- extração determinística de paletas de cores por visão computacional;
+- auditoria automática de arquivos;
+- gerenciamento de frota com banco de dados **SQLite**;
+- autoatualização offline com apoio de integrações externas;
+- otimização de texturas com **Pillow**.
 
 ## Status
-Projeto em desenvolvimento.
+
+Este repositório está em fase inicial de estruturação. No momento, a base documental do projeto já está organizada para apoiar manutenção, colaboração e evolução futura do código.
+
+## Documentação disponível
+
+- `/README.md`: visão geral do repositório
+- `/CONTRIBUTING.md`: orientações para contribuições
+- `/SECURITY.md`: política para relato de vulnerabilidades
+- `/CODE_OF_CONDUCT.md`: regras básicas de convivência
+- `/CHANGELOG.md`: histórico de mudanças relevantes
+
+## Como contribuir
+
+Antes de abrir mudanças, leia:
+
+1. `/CONTRIBUTING.md`
+2. `/CODE_OF_CONDUCT.md`
+3. `/SECURITY.md`
+
+## Hospedagem e deploy
+
+Como se trata de uma aplicação Python voltada a uso local, plataformas centradas em frontend podem não ser adequadas. Quando houver necessidade de automação remota, a recomendação é avaliar plataformas compatíveis com cargas de backend em Python.
+
+## Licença
+
+A licença do projeto ainda não foi definida pelos mantenedores.
