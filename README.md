@@ -1,47 +1,50 @@
 # ITA-RFS-Pintura-IA
 
-Descrição do projeto : o que o ITA-RFS-Pintura-IA faz, em 1 a 2 frases.
-Funcionalidades : principais capacidades ou objetivos.
-Instalação/configuração : como instalar as dependências e executar o programa.
-Exemplo de uso : um comando rápido ou um trecho de código.
-Estrutura do projeto : breve descrição das pastas/arquivos importantes.
-Requisitos : ambiente de execução, dependências, hardware, conjunto de dados, etc.
-Configuração : variáveis ​​de ambiente ou arquivos de configuração.
-Contribuição : como outros podem ajudar.
-Licença : informações claras sobre a licença.
-Status/roteiro : se é um protótipo, está em desenvolvimento ou é estável.
-Um modelo inicial simples poderia ser assim:
+Projeto de IA focado em pintura, desenvolvido para experimentação com técnicas de aprendizado de máquina e processamento de imagens.
 
-Markdown
-# ITA-RFS-Pintura-IA
+## Funcionalidades
+- Treinamento e teste de modelos de IA
+- Processamento de imagens relacionadas a pintura
+- Organização de experimentos e datasets
+- Possível integração com notebooks e scripts Python
 
-Short description of the project and its purpose.
+## Requisitos
+- Python 3.10+
+- `pip`
+- Dependências do projeto, listadas em `requirements.txt`
+- Dataset/imagens, se aplicável
 
-## Features
-- Feature 1
-- Feature 2
-- Feature 3
-
-## Requirements
-- Requirement 1
-- Requirement 2
-
-## Installation
+## Instalação
 ```bash
-# install steps
-Uso
-bash
-# run the project
-Estrutura do Projeto
-src/— código-fonte
-data/— conjuntos de dados ou ativos
-docs/— documentação
-Contribuindo
-Pull requests são bem-vindos. Por favor, abra uma issue primeiro para alterações significativas.
+git clone https://github.com/biscoitotv1/ITA-RFS-Pintura-IA.git
+cd ITA-RFS-Pintura-IA
+pip install -r requirements.txt
+```
 
-Licença
-Especifique a licença aqui.
+## Uso
+```bash
+python main.py
+```
 
-Código
+Se o projeto usar notebooks, você também pode abrir:
+```bash
+jupyter notebook
+```
 
-If you want, I can also **rewrite this README for you** i
+## Estrutura do Projeto
+- `src/` — código-fonte principal
+- `data/` — datasets e arquivos de entrada
+- `notebooks/` — experimentos e testes
+- `docs/` — documentação adicional
+
+## Configuração
+Se houver variáveis de ambiente ou arquivos de configuração, descreva aqui como ajustar antes de executar.
+
+## Contribuição
+Contribuições são bem-vindas. Para mudanças maiores, abra uma issue antes de enviar um pull request.
+
+## Licença
+Adicione aqui a licença do projeto.
+
+## Status
+Projeto em desenvolvimento.
